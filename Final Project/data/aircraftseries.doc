@@ -1,0 +1,17 @@
+ AircraftSeriesFTP              
+
+ ACFT_MMS_CODE                  Char            26 
+ MFR_SHORT_MAKE                 Char             6 
+ ACFT_MODEL_CODE                Char            13 
+ MASTER_ID                      Char            26 
+ ASAS_CONTROL                   Char            29 
+ FSIS_MODEL_GROUP               Char             6 
+ FSIS_MODEL                     Char            12 
+ POPULAR_NAME                   Char            20 
+ TYPE_CERT_NUMBER               Char             8 
+ AA_REGISTRY_KEY                Char             7 
+ CIVIL_MIL_FLAG                 Char             1 
+ LCHG_DATE                      Char            10 
+ RECORD_STATUS                  Char             1 
+ Record_End                     Char             1 
+

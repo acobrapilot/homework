@@ -1,0 +1,12 @@
+ airportftp                     
+
+ AIRPORT_ID                     Char             4 
+ AIRPORT_NAME                   Char            50 
+ AIRPORT_CITY                   Char            22 
+ AIRPORT_STATE                  Char             2 
+ AIRPORT_COUNTRY                Char             2 
+ ICAO                           Char             1 
+ LCHG_DATE                      Char            10 
+ RECORD_STATUS                  Char             1 
+ Record_End                     Char             1 
+
