@@ -1,0 +1,32 @@
+digraph Tree {
+node [shape=box] ;
+0 [label="pilot_age <= 51.5\ngini = 0.271\nsamples = 11181\nvalue = [9378, 1803]"] ;
+1 [label="pilot_age <= 50.5\ngini = 0.239\nsamples = 6134\nvalue = [5285, 849]"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="pilot_age <= 31.5\ngini = 0.263\nsamples = 4796\nvalue = [4049, 747]"] ;
+1 -> 2 ;
+3 [label="gini = 0.207\nsamples = 1374\nvalue = [1213, 161]"] ;
+2 -> 3 ;
+4 [label="gini = 0.284\nsamples = 3422\nvalue = [2836, 586]"] ;
+2 -> 4 ;
+5 [label="Pilot_Cert_PRIVATE PILOT <= 0.5\ngini = 0.141\nsamples = 1338\nvalue = [1236, 102]"] ;
+1 -> 5 ;
+6 [label="gini = 0.119\nsamples = 1198\nvalue = [1122, 76]"] ;
+5 -> 6 ;
+7 [label="gini = 0.302\nsamples = 140\nvalue = [114, 26]"] ;
+5 -> 7 ;
+8 [label="Pilot_Cert_PILOT NOT CERTIFICAT <= 0.5\ngini = 0.307\nsamples = 5047\nvalue = [4093, 954]"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="pilot_age <= 88.5\ngini = 0.303\nsamples = 5005\nvalue = [4072, 933]"] ;
+8 -> 9 ;
+10 [label="gini = 0.302\nsamples = 5000\nvalue = [4072, 928]"] ;
+9 -> 10 ;
+11 [label="gini = 0.0\nsamples = 5\nvalue = [0, 5]"] ;
+9 -> 11 ;
+12 [label="pilot_age <= 73.0\ngini = 0.5\nsamples = 42\nvalue = [21, 21]"] ;
+8 -> 12 ;
+13 [label="gini = 0.489\nsamples = 33\nvalue = [19, 14]"] ;
+12 -> 13 ;
+14 [label="gini = 0.346\nsamples = 9\nvalue = [2, 7]"] ;
+12 -> 14 ;
+}
